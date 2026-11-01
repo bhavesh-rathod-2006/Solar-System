@@ -1,0 +1,282 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid red;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(0, 0, 7); */
+    background-image: url(https://cdn.pixabay.com/photo/2015/09/29/15/12/stars-964022_1280.png);
+}
+
+.sun{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px red;
+    background-image: radial-gradient(yellow, red);
+}
+
+
+
+.mercury-orbit{
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    animation-name: planet;
+    animation-duration: 2s;
+    position: absolute;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.mercury-planet{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 30px;
+     background-image: url(https://www.nicepng.com/png/full/217-2171911_3d-mercury-planet-mercury.png);
+     background-size: cover;
+    animation-name: planet;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+.venus-orbit{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+.venus-planet{
+        height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 65px;
+     background-image: url(https://www.nicepng.com/png/full/4-43998_planet-venus-planet-no-background.png);
+     background-size: cover;
+    animation-name: planet;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+.earth-orbit{
+    height:530px;
+    width: 530px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.earth-planet{
+        height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 115px;
+      background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/43/The_Earth_seen_from_Apollo_17_with_transparent_background.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+      background-size: cover;
+    animation-name: planet;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+.mars-orbit{
+    height:700px;
+    width: 700px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.mars-planet{
+        height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 145px;
+    background-image: url(https://www.freepnglogos.com/uploads/mars-png/mars-transparent-png-stickpng-0.png);
+    background-size: cover;
+    animation-name: planet;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+.jupiter-orbit{
+    height:890px;
+    width: 890px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.jupiter-planet{
+        height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 195px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e1/Jupiter_%28transparent%29.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+    background-size: cover;
+    animation-name: planet;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+.saturn-orbit{
+    height:1150px;
+    width: 1150px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.saturn-planet{
+        height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 295px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/43/Saturnx.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: planet;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+.uranus-orbit{
+    height:1500px;
+    width: 1500px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.uranus-planet{
+        height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 385px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/83/Full_Uranus.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+    background-size: cover;
+    animation-name: planet;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+.neptune-orbit{
+    height:1900px;
+    width: 1900px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px gray;
+    position: absolute;
+    animation-name: planet;
+    animation-duration: 9s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.neptune-planet{
+        height: 135px;
+    width: 135px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px black;
+    position: relative;
+    top: 475px;
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/da/3D_Neptune.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original);
+    background-size: cover;
+    animation-name: planet;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+@keyframes planet{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
